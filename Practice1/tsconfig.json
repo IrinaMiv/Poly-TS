@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ESNext",
+    "lib": ["dom"],
+    "sourceMap": true,
+    "experimentalDecorators": true
+  },
+  "exclude": ["../node_modules"],
+  "files": [
+    "./index.ts"
+  ],
+  "extends": "./tsconfig-extends.json",
+  "compileOnSave": false
+}
